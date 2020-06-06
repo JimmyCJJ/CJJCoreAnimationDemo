@@ -169,11 +169,11 @@
 			children = (
 				0A70491A248B4B3300BE3993 /* CJJCoreAnimationStatement.h */,
 				0A70491B248B4B3300BE3993 /* Basic */,
-				0A70491E248B4B3300BE3993 /* CASpringAnimation */,
 				0A704921248B4B3300BE3993 /* CABasicAnimation */,
 				0A704924248B4B3300BE3993 /* CAKeyframeAnimation */,
-				0A704927248B4B3300BE3993 /* CAAnimationGroup */,
+				0A70491E248B4B3300BE3993 /* CASpringAnimation */,
 				0A70492A248B4B3300BE3993 /* CATransition */,
+				0A704927248B4B3300BE3993 /* CAAnimationGroup */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -181,8 +181,8 @@
 		0A70491B248B4B3300BE3993 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
-				0A70491C248B4B3300BE3993 /* CJJCoreAnimation.m */,
 				0A70491D248B4B3300BE3993 /* CJJCoreAnimation.h */,
+				0A70491C248B4B3300BE3993 /* CJJCoreAnimation.m */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -190,8 +190,8 @@
 		0A70491E248B4B3300BE3993 /* CASpringAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				0A70491F248B4B3300BE3993 /* CJJCASpringAnimation.m */,
 				0A704920248B4B3300BE3993 /* CJJCASpringAnimation.h */,
+				0A70491F248B4B3300BE3993 /* CJJCASpringAnimation.m */,
 			);
 			path = CASpringAnimation;
 			sourceTree = "<group>";
@@ -199,8 +199,8 @@
 		0A704921248B4B3300BE3993 /* CABasicAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				0A704922248B4B3300BE3993 /* CJJCABasicAnimation.m */,
 				0A704923248B4B3300BE3993 /* CJJCABasicAnimation.h */,
+				0A704922248B4B3300BE3993 /* CJJCABasicAnimation.m */,
 			);
 			path = CABasicAnimation;
 			sourceTree = "<group>";
@@ -208,8 +208,8 @@
 		0A704924248B4B3300BE3993 /* CAKeyframeAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				0A704925248B4B3300BE3993 /* CJJCAKeyframeAnimation.m */,
 				0A704926248B4B3300BE3993 /* CJJCAKeyframeAnimation.h */,
+				0A704925248B4B3300BE3993 /* CJJCAKeyframeAnimation.m */,
 			);
 			path = CAKeyframeAnimation;
 			sourceTree = "<group>";

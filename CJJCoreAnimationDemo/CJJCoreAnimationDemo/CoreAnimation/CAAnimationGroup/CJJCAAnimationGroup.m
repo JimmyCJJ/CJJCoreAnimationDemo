@@ -86,7 +86,7 @@
     positionAnimation1.fillMode = kCAFillModeForwards;
     positionAnimation1.removedOnCompletion = NO;
     
-    //动画5:反向移动
+    //动画6:反向移动
     CABasicAnimation *positionAnimation2 = [CABasicAnimation animationWithKeyPath:@"position"];
     positionAnimation2.toValue = [NSValue valueWithCGPoint:CGPointMake(100, 600)];
     positionAnimation2.duration = 10;
@@ -94,6 +94,7 @@
     positionAnimation2.fillMode = kCAFillModeForwards;
     positionAnimation2.removedOnCompletion = NO;
     
+    //合成以上6种动画效果
     CAAnimationGroup *group = [CAAnimationGroup animation];
     group.duration = 20.0;
     group.fillMode = kCAFillModeForwards;
