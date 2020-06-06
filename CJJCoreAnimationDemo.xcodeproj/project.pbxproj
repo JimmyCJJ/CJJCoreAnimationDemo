@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A7048CC248B4A5A00BE3993 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7048CB248B4A5A00BE3993 /* AppDelegate.m */; };
+		0A7048D2248B4A5A00BE3993 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7048D1248B4A5A00BE3993 /* ViewController.m */; };
+		0A7048D5248B4A5A00BE3993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7048D3248B4A5A00BE3993 /* Main.storyboard */; };
+		0A7048D7248B4A5B00BE3993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7048D6248B4A5B00BE3993 /* Assets.xcassets */; };
+		0A7048DA248B4A5B00BE3993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7048D8248B4A5B00BE3993 /* LaunchScreen.storyboard */; };
+		0A7048DD248B4A5B00BE3993 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7048DC248B4A5B00BE3993 /* main.m */; };
+		0A7048E7248B4A5B00BE3993 /* CJJCoreAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7048E6248B4A5B00BE3993 /* CJJCoreAnimationDemoTests.m */; };
+		0A7048F2248B4A5B00BE3993 /* CJJCoreAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7048F1248B4A5B00BE3993 /* CJJCoreAnimationDemoUITests.m */; };
+		0A70492D248B4B3300BE3993 /* CJJCoreAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A70491C248B4B3300BE3993 /* CJJCoreAnimation.m */; };
+		0A70492E248B4B3300BE3993 /* CJJCASpringAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A70491F248B4B3300BE3993 /* CJJCASpringAnimation.m */; };
+		0A70492F248B4B3300BE3993 /* CJJCABasicAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A704922248B4B3300BE3993 /* CJJCABasicAnimation.m */; };
+		0A704930248B4B3300BE3993 /* CJJCAKeyframeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A704925248B4B3300BE3993 /* CJJCAKeyframeAnimation.m */; };
+		0A704931248B4B3300BE3993 /* CJJCAAnimationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A704929248B4B3300BE3993 /* CJJCAAnimationGroup.m */; };
+		0A704932248B4B3300BE3993 /* CJJCATransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A70492C248B4B3300BE3993 /* CJJCATransition.m */; };
+		0A704939248B4E0B00BE3993 /* AnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A704934248B4E0A00BE3993 /* AnimationVC.m */; };
+		0A70493B248B4E0B00BE3993 /* CATransitionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A704937248B4E0B00BE3993 /* CATransitionVC.m */; };
+		F599948C0B48374932403053 /* libPods-CJJCoreAnimationDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76CBA2B7284536C186ED341B /* libPods-CJJCoreAnimationDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A7048E3248B4A5B00BE3993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A7048BF248B4A5A00BE3993 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A7048C6248B4A5A00BE3993;
+			remoteInfo = CJJCoreAnimationDemo;
+		};
+		0A7048EE248B4A5B00BE3993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A7048BF248B4A5A00BE3993 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A7048C6248B4A5A00BE3993;
+			remoteInfo = CJJCoreAnimationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A7048C7248B4A5A00BE3993 /* CJJCoreAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CJJCoreAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7048CA248B4A5A00BE3993 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A7048CB248B4A5A00BE3993 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A7048D0248B4A5A00BE3993 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A7048D1248B4A5A00BE3993 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A7048D4248B4A5A00BE3993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A7048D6248B4A5B00BE3993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A7048D9248B4A5B00BE3993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A7048DB248B4A5B00BE3993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A7048DC248B4A5B00BE3993 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A7048E2248B4A5B00BE3993 /* CJJCoreAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CJJCoreAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7048E6248B4A5B00BE3993 /* CJJCoreAnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJJCoreAnimationDemoTests.m; sourceTree = "<group>"; };
+		0A7048E8248B4A5B00BE3993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A7048ED248B4A5B00BE3993 /* CJJCoreAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CJJCoreAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7048F1248B4A5B00BE3993 /* CJJCoreAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJJCoreAnimationDemoUITests.m; sourceTree = "<group>"; };
+		0A7048F3248B4A5B00BE3993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A70491A248B4B3300BE3993 /* CJJCoreAnimationStatement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJJCoreAnimationStatement.h; sourceTree = "<group>"; };
+		0A70491C248B4B3300BE3993 /* CJJCoreAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJJCoreAnimation.m; sourceTree = "<group>"; };
+		0A70491D248B4B3300BE3993 /* CJJCoreAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJJCoreAnimation.h; sourceTree = "<group>"; };
+		0A70491F248B4B3300BE3993 /* CJJCASpringAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJJCASpringAnimation.m; sourceTree = "<group>"; };
+		0A704920248B4B3300BE3993 /* CJJCASpringAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJJCASpringAnimation.h; sourceTree = "<group>"; };
+		0A704922248B4B3300BE3993 /* CJJCABasicAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJJCABasicAnimation.m; sourceTree = "<group>"; };
+		0A704923248B4B3300BE3993 /* CJJCABasicAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJJCABasicAnimation.h; sourceTree = "<group>"; };
+		0A704925248B4B3300BE3993 /* CJJCAKeyframeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJJCAKeyframeAnimation.m; sourceTree = "<group>"; };
+		0A704926248B4B3300BE3993 /* CJJCAKeyframeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJJCAKeyframeAnimation.h; sourceTree = "<group>"; };
+		0A704928248B4B3300BE3993 /* CJJCAAnimationGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJJCAAnimationGroup.h; sourceTree = "<group>"; };
+		0A704929248B4B3300BE3993 /* CJJCAAnimationGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJJCAAnimationGroup.m; sourceTree = "<group>"; };
+		0A70492B248B4B3300BE3993 /* CJJCATransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJJCATransition.h; sourceTree = "<group>"; };
+		0A70492C248B4B3300BE3993 /* CJJCATransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJJCATransition.m; sourceTree = "<group>"; };
+		0A704933248B4E0A00BE3993 /* CATransitionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransitionVC.h; sourceTree = "<group>"; };
+		0A704934248B4E0A00BE3993 /* AnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationVC.m; sourceTree = "<group>"; };
+		0A704937248B4E0B00BE3993 /* CATransitionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransitionVC.m; sourceTree = "<group>"; };
+		0A704938248B4E0B00BE3993 /* AnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationVC.h; sourceTree = "<group>"; };
+		0A70493D248B4E8B00BE3993 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2D4F98A629C8B6CE1B766862 /* Pods-CJJCoreAnimationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJJCoreAnimationDemo.release.xcconfig"; path = "Target Support Files/Pods-CJJCoreAnimationDemo/Pods-CJJCoreAnimationDemo.release.xcconfig"; sourceTree = "<group>"; };
+		76CBA2B7284536C186ED341B /* libPods-CJJCoreAnimationDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CJJCoreAnimationDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D8F6D56D83AC6C1B5D9693 /* Pods-CJJCoreAnimationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJJCoreAnimationDemo.debug.xcconfig"; path = "Target Support Files/Pods-CJJCoreAnimationDemo/Pods-CJJCoreAnimationDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A7048C4248B4A5A00BE3993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F599948C0B48374932403053 /* libPods-CJJCoreAnimationDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7048DF248B4A5B00BE3993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7048EA248B4A5B00BE3993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A7048BE248B4A5A00BE3993 = {
+			isa = PBXGroup;
+			children = (
+				0A7048C9248B4A5A00BE3993 /* CJJCoreAnimationDemo */,
+				0A7048E5248B4A5B00BE3993 /* CJJCoreAnimationDemoTests */,
+				0A7048F0248B4A5B00BE3993 /* CJJCoreAnimationDemoUITests */,
+				0A7048C8248B4A5A00BE3993 /* Products */,
+				3DF341731E29617C49E5C785 /* Pods */,
+				EE06F9301D4A73309FCA71EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A7048C8248B4A5A00BE3993 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A7048C7248B4A5A00BE3993 /* CJJCoreAnimationDemo.app */,
+				0A7048E2248B4A5B00BE3993 /* CJJCoreAnimationDemoTests.xctest */,
+				0A7048ED248B4A5B00BE3993 /* CJJCoreAnimationDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A7048C9248B4A5A00BE3993 /* CJJCoreAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0A70493C248B4E0F00BE3993 /* other */,
+				0A704919248B4B3300BE3993 /* CoreAnimation */,
+				0A7048D0248B4A5A00BE3993 /* ViewController.h */,
+				0A7048D1248B4A5A00BE3993 /* ViewController.m */,
+				0A704938248B4E0B00BE3993 /* AnimationVC.h */,
+				0A704934248B4E0A00BE3993 /* AnimationVC.m */,
+				0A704933248B4E0A00BE3993 /* CATransitionVC.h */,
+				0A704937248B4E0B00BE3993 /* CATransitionVC.m */,
+			);
+			path = CJJCoreAnimationDemo;
+			sourceTree = "<group>";
+		};
+		0A7048E5248B4A5B00BE3993 /* CJJCoreAnimationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A7048E6248B4A5B00BE3993 /* CJJCoreAnimationDemoTests.m */,
+				0A7048E8248B4A5B00BE3993 /* Info.plist */,
+			);
+			path = CJJCoreAnimationDemoTests;
+			sourceTree = "<group>";
+		};
+		0A7048F0248B4A5B00BE3993 /* CJJCoreAnimationDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A7048F1248B4A5B00BE3993 /* CJJCoreAnimationDemoUITests.m */,
+				0A7048F3248B4A5B00BE3993 /* Info.plist */,
+			);
+			path = CJJCoreAnimationDemoUITests;
+			sourceTree = "<group>";
+		};
+		0A704919248B4B3300BE3993 /* CoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				0A70491A248B4B3300BE3993 /* CJJCoreAnimationStatement.h */,
+				0A70491B248B4B3300BE3993 /* Basic */,
+				0A70491E248B4B3300BE3993 /* CASpringAnimation */,
+				0A704921248B4B3300BE3993 /* CABasicAnimation */,
+				0A704924248B4B3300BE3993 /* CAKeyframeAnimation */,
+				0A704927248B4B3300BE3993 /* CAAnimationGroup */,
+				0A70492A248B4B3300BE3993 /* CATransition */,
+			);
+			path = CoreAnimation;
+			sourceTree = "<group>";
+		};
+		0A70491B248B4B3300BE3993 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				0A70491C248B4B3300BE3993 /* CJJCoreAnimation.m */,
+				0A70491D248B4B3300BE3993 /* CJJCoreAnimation.h */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		0A70491E248B4B3300BE3993 /* CASpringAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				0A70491F248B4B3300BE3993 /* CJJCASpringAnimation.m */,
+				0A704920248B4B3300BE3993 /* CJJCASpringAnimation.h */,
+			);
+			path = CASpringAnimation;
+			sourceTree = "<group>";
+		};
+		0A704921248B4B3300BE3993 /* CABasicAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				0A704922248B4B3300BE3993 /* CJJCABasicAnimation.m */,
+				0A704923248B4B3300BE3993 /* CJJCABasicAnimation.h */,
+			);
+			path = CABasicAnimation;
+			sourceTree = "<group>";
+		};
+		0A704924248B4B3300BE3993 /* CAKeyframeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				0A704925248B4B3300BE3993 /* CJJCAKeyframeAnimation.m */,
+				0A704926248B4B3300BE3993 /* CJJCAKeyframeAnimation.h */,
+			);
+			path = CAKeyframeAnimation;
+			sourceTree = "<group>";
+		};
+		0A704927248B4B3300BE3993 /* CAAnimationGroup */ = {
+			isa = PBXGroup;
+			children = (
+				0A704928248B4B3300BE3993 /* CJJCAAnimationGroup.h */,
+				0A704929248B4B3300BE3993 /* CJJCAAnimationGroup.m */,
+			);
+			path = CAAnimationGroup;
+			sourceTree = "<group>";
+		};
+		0A70492A248B4B3300BE3993 /* CATransition */ = {
+			isa = PBXGroup;
+			children = (
+				0A70492B248B4B3300BE3993 /* CJJCATransition.h */,
+				0A70492C248B4B3300BE3993 /* CJJCATransition.m */,
+			);
+			path = CATransition;
+			sourceTree = "<group>";
+		};
+		0A70493C248B4E0F00BE3993 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				0A7048CA248B4A5A00BE3993 /* AppDelegate.h */,
+				0A7048CB248B4A5A00BE3993 /* AppDelegate.m */,
+				0A7048D3248B4A5A00BE3993 /* Main.storyboard */,
+				0A7048D6248B4A5B00BE3993 /* Assets.xcassets */,
+				0A7048D8248B4A5B00BE3993 /* LaunchScreen.storyboard */,
+				0A7048DB248B4A5B00BE3993 /* Info.plist */,
+				0A7048DC248B4A5B00BE3993 /* main.m */,
+				0A70493D248B4E8B00BE3993 /* PrefixHeader.pch */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		3DF341731E29617C49E5C785 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9D8F6D56D83AC6C1B5D9693 /* Pods-CJJCoreAnimationDemo.debug.xcconfig */,
+				2D4F98A629C8B6CE1B766862 /* Pods-CJJCoreAnimationDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EE06F9301D4A73309FCA71EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76CBA2B7284536C186ED341B /* libPods-CJJCoreAnimationDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A7048C6248B4A5A00BE3993 /* CJJCoreAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A7048F6248B4A5B00BE3993 /* Build configuration list for PBXNativeTarget "CJJCoreAnimationDemo" */;
+			buildPhases = (
+				B4BAE6B8150F6FD9DE394345 /* [CP] Check Pods Manifest.lock */,
+				0A7048C3248B4A5A00BE3993 /* Sources */,
+				0A7048C4248B4A5A00BE3993 /* Frameworks */,
+				0A7048C5248B4A5A00BE3993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CJJCoreAnimationDemo;
+			productName = CJJCoreAnimationDemo;
+			productReference = 0A7048C7248B4A5A00BE3993 /* CJJCoreAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A7048E1248B4A5B00BE3993 /* CJJCoreAnimationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A7048F9248B4A5B00BE3993 /* Build configuration list for PBXNativeTarget "CJJCoreAnimationDemoTests" */;
+			buildPhases = (
+				0A7048DE248B4A5B00BE3993 /* Sources */,
+				0A7048DF248B4A5B00BE3993 /* Frameworks */,
+				0A7048E0248B4A5B00BE3993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A7048E4248B4A5B00BE3993 /* PBXTargetDependency */,
+			);
+			name = CJJCoreAnimationDemoTests;
+			productName = CJJCoreAnimationDemoTests;
+			productReference = 0A7048E2248B4A5B00BE3993 /* CJJCoreAnimationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A7048EC248B4A5B00BE3993 /* CJJCoreAnimationDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A7048FC248B4A5B00BE3993 /* Build configuration list for PBXNativeTarget "CJJCoreAnimationDemoUITests" */;
+			buildPhases = (
+				0A7048E9248B4A5B00BE3993 /* Sources */,
+				0A7048EA248B4A5B00BE3993 /* Frameworks */,
+				0A7048EB248B4A5B00BE3993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A7048EF248B4A5B00BE3993 /* PBXTargetDependency */,
+			);
+			name = CJJCoreAnimationDemoUITests;
+			productName = CJJCoreAnimationDemoUITests;
+			productReference = 0A7048ED248B4A5B00BE3993 /* CJJCoreAnimationDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A7048BF248B4A5A00BE3993 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = CAOJIANJIN;
+				TargetAttributes = {
+					0A7048C6248B4A5A00BE3993 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					0A7048E1248B4A5B00BE3993 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 0A7048C6248B4A5A00BE3993;
+					};
+					0A7048EC248B4A5B00BE3993 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 0A7048C6248B4A5A00BE3993;
+					};
+				};
+			};
+			buildConfigurationList = 0A7048C2248B4A5A00BE3993 /* Build configuration list for PBXProject "CJJCoreAnimationDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A7048BE248B4A5A00BE3993;
+			productRefGroup = 0A7048C8248B4A5A00BE3993 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A7048C6248B4A5A00BE3993 /* CJJCoreAnimationDemo */,
+				0A7048E1248B4A5B00BE3993 /* CJJCoreAnimationDemoTests */,
+				0A7048EC248B4A5B00BE3993 /* CJJCoreAnimationDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A7048C5248B4A5A00BE3993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7048DA248B4A5B00BE3993 /* LaunchScreen.storyboard in Resources */,
+				0A7048D7248B4A5B00BE3993 /* Assets.xcassets in Resources */,
+				0A7048D5248B4A5A00BE3993 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7048E0248B4A5B00BE3993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7048EB248B4A5B00BE3993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B4BAE6B8150F6FD9DE394345 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CJJCoreAnimationDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A7048C3248B4A5A00BE3993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A704931248B4B3300BE3993 /* CJJCAAnimationGroup.m in Sources */,
+				0A70492E248B4B3300BE3993 /* CJJCASpringAnimation.m in Sources */,
+				0A7048D2248B4A5A00BE3993 /* ViewController.m in Sources */,
+				0A704930248B4B3300BE3993 /* CJJCAKeyframeAnimation.m in Sources */,
+				0A704932248B4B3300BE3993 /* CJJCATransition.m in Sources */,
+				0A704939248B4E0B00BE3993 /* AnimationVC.m in Sources */,
+				0A70493B248B4E0B00BE3993 /* CATransitionVC.m in Sources */,
+				0A70492D248B4B3300BE3993 /* CJJCoreAnimation.m in Sources */,
+				0A7048CC248B4A5A00BE3993 /* AppDelegate.m in Sources */,
+				0A7048DD248B4A5B00BE3993 /* main.m in Sources */,
+				0A70492F248B4B3300BE3993 /* CJJCABasicAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7048DE248B4A5B00BE3993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7048E7248B4A5B00BE3993 /* CJJCoreAnimationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7048E9248B4A5B00BE3993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7048F2248B4A5B00BE3993 /* CJJCoreAnimationDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A7048E4248B4A5B00BE3993 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A7048C6248B4A5A00BE3993 /* CJJCoreAnimationDemo */;
+			targetProxy = 0A7048E3248B4A5B00BE3993 /* PBXContainerItemProxy */;
+		};
+		0A7048EF248B4A5B00BE3993 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A7048C6248B4A5A00BE3993 /* CJJCoreAnimationDemo */;
+			targetProxy = 0A7048EE248B4A5B00BE3993 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A7048D3248B4A5A00BE3993 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A7048D4248B4A5A00BE3993 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A7048D8248B4A5B00BE3993 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A7048D9248B4A5B00BE3993 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A7048F4248B4A5B00BE3993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A7048F5248B4A5B00BE3993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A7048F7248B4A5B00BE3993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9D8F6D56D83AC6C1B5D9693 /* Pods-CJJCoreAnimationDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CJJCoreAnimationDemo/other/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/CJJCoreAnimationDemo/other/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CJJDemo.www.CJJCoreAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A7048F8248B4A5B00BE3993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D4F98A629C8B6CE1B766862 /* Pods-CJJCoreAnimationDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CJJCoreAnimationDemo/other/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/CJJCoreAnimationDemo/other/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CJJDemo.www.CJJCoreAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A7048FA248B4A5B00BE3993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CJJCoreAnimationDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CJJDemo.www.CJJCoreAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CJJCoreAnimationDemo.app/CJJCoreAnimationDemo";
+			};
+			name = Debug;
+		};
+		0A7048FB248B4A5B00BE3993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CJJCoreAnimationDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CJJDemo.www.CJJCoreAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CJJCoreAnimationDemo.app/CJJCoreAnimationDemo";
+			};
+			name = Release;
+		};
+		0A7048FD248B4A5B00BE3993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CJJCoreAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CJJDemo.www.CJJCoreAnimationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CJJCoreAnimationDemo;
+			};
+			name = Debug;
+		};
+		0A7048FE248B4A5B00BE3993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CJJCoreAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CJJDemo.www.CJJCoreAnimationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CJJCoreAnimationDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A7048C2248B4A5A00BE3993 /* Build configuration list for PBXProject "CJJCoreAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7048F4248B4A5B00BE3993 /* Debug */,
+				0A7048F5248B4A5B00BE3993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A7048F6248B4A5B00BE3993 /* Build configuration list for PBXNativeTarget "CJJCoreAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7048F7248B4A5B00BE3993 /* Debug */,
+				0A7048F8248B4A5B00BE3993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A7048F9248B4A5B00BE3993 /* Build configuration list for PBXNativeTarget "CJJCoreAnimationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7048FA248B4A5B00BE3993 /* Debug */,
+				0A7048FB248B4A5B00BE3993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A7048FC248B4A5B00BE3993 /* Build configuration list for PBXNativeTarget "CJJCoreAnimationDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7048FD248B4A5B00BE3993 /* Debug */,
+				0A7048FE248B4A5B00BE3993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A7048BF248B4A5A00BE3993 /* Project object */;
+}
