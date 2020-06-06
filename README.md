@@ -1,0 +1,2 @@
+# CJJCoreAnimationDemo
+CJJCoreAnimationDemo是一个集成五种核心动画基本使用方法的demo
